@@ -19,18 +19,20 @@ package com.check.hallal.activite;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 
+import com.check.hallal.R;
 import com.google.android.gms.common.api.CommonStatusCodes;
 
 /**
  * Main activity demonstrating how to pass extra parameters to an activity that
  * recognizes text.
  */
-public class MainActivity extends Activity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     // Use a compound button so either checkbox or switch widgets work.
     private CompoundButton autoFocus;
